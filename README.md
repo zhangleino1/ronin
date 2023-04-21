@@ -16,7 +16,9 @@ Please refer to our paper for more details on data collection.
 You can download the RoNIN dataset from our [project website](http://ronin.cs.sfu.ca/) or [HERE](https://doi.org/10.20383/102.0543). Unfortunately, due to security concerns we were unable to publish 50% of our dataset.
 
 Optionally, you can write a custom dataloader (E.g: soure/data_ridi.py) to load a different dataset.
-
+## 数据路径：
+D:\work\IMUNet\Datasets\ronin
+python ronin_resnet.py --mode train --train_list D:/work/IMUNet/Datasets/ronin --root_dir D:/work/IMUNet/Datasets/ronin --out_dir ./
 ### Usage:
 1. Clone the repository.
 2. (Optional) Download the dataset and the pre-trained models<sup>1</sup> from [HERE](https://doi.org/10.20383/102.0543). 

@@ -1,0 +1,25 @@
+{
+    
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Python: 当前文件",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "--mode",
+                "train",
+                "--train_list",
+                "d:/work/IMUNet/Datasets/ronin/list_train.txt",
+                "--root_dir",
+                "D:/work/IMUNet/Datasets/ronin/train_dataset_1",
+                "--out_dir",
+                "D:/work/dream/ronin/model"
+            ]
+        }
+    ]
+}
